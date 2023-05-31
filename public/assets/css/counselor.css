@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.wrapper .sidebar{
+  background: linear-gradient(to top, #2e52be, #2401e5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100%;
+  padding: 20px 0;
+  z-index: 2;
+  transition: all 0.5s ease;
+    
+}
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h5{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    color: rgb(241, 237, 237);
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 20px;
+    display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #0c7db1;
+    text-decoration: none;
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+}
+
+.main-content {
+  background: #e6e4e4;
+	margin-left: 230px; /* adjust the value to match the width of the sidebar */
+	padding: 20px;
+	box-sizing: border-box;
+	
+  }
+
+  .navbar {
+    background: linear-gradient(to left, #2e52be, #2401e5);
+    color: #fff;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+ 
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .navbar-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav li {
+    margin: 0 10px;
+  }
+  
+  .navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-right {
+    margin-left: auto;
+  }
+  
+  
+  

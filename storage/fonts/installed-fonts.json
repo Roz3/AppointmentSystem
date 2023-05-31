@@ -1,0 +1,19 @@
+{
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_6c7b9742dc5ae85c1a4a9ff1945464dc"
+    },
+    "font awesome 5 free": {
+        "normal": "C:\\xampp\\htdocs\\appointment-system\\storage\\fonts\/font_awesome_5_free_normal_53a461860a760912241c035ad97e42ed",
+        "900": "font_awesome_5_free_900_a496f8644d2cd386b5617d8f041a0ea0"
+    },
+    "line awesome brands": {
+        "normal": "line_awesome_brands_normal_f905f0dcb962dd842eea02bb4f9eee69"
+    },
+    "line awesome free": {
+        "normal": "C:\\xampp\\htdocs\\appointment-system\\storage\\fonts\/line_awesome_free_normal_967a0922d505961af7c5cdf6c50fd81e",
+        "900": "line_awesome_free_900_03518a78e82e89adf0bdd3560d8fbb29"
+    },
+    "poppins": {
+        "100": "poppins_100_9516b5e61c50e1848d59fd3ff2402f66"
+    }
+}

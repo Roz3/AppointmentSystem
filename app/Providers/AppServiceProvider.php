@@ -24,7 +24,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if (!Type::hasType('enum')) {
         Type::addType('enum', 'Doctrine\DBAL\Types\StringType');
+    }
+
+    if (!Type::hasType('set')) {
         Type::addType('set', 'Doctrine\DBAL\Types\StringType');
+    }
     }
 }
